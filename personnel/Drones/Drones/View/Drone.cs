@@ -9,10 +9,7 @@ namespace Drones
     {
         string[] strings = {"DarkRed","Red","AliceBlue","Blue","Green","Yellow","YellowGreen","Wheat"};
 
-        if (Enum.TryParse(strP1Color, true, out ConsoleColor color1))
-                    {
-                        Console.ForegroundColor = color1;
-                    }
+      
     private Pen droneBrush = new Pen(new SolidBrush(Color.Purple), 10);
 
         // De manière graphique

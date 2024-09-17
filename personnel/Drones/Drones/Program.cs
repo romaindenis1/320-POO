@@ -18,18 +18,15 @@ namespace Drones
             // Création de la flotte de drones
 
             List<Drone> fleet= new List<Drone>();
-            
-            
+
+            List<Batiment> city = new List<Batiment>();
+
+
 
             for (int i = 0; i < 10; i++) 
             {
-                fleet.Add(new Drone(AirSpace.WIDTH / 2, AirSpace.HEIGHT / 2, "Joe" + i));
-              
-
-                    
-              
-               
-                
+                fleet.Add(new Drone(AirSpace.WIDTH / 2, AirSpace.HEIGHT / 2, "Joe" + i));         
+                   
             }
 
             // Démarrage
