@@ -17,7 +17,7 @@ Créer deux objets de types distincts :
 
 ## Étape 2 : Coder trois classes enfants qui héritent de Container: 
 
-    - 1 classe `SensitiveContainer`
+    - 1 classe `SensitiveContainer`+
     - 1 classe `RefrigeratedContainer`
     - 1 classe `TankContainer` (container citerne donc besoin d’être réfrigéré)
         - Cette classe aura uniquement 1 type de marchandise
